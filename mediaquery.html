@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .media{
+            display: flex;
+            height: 50vh;
+            width: 100%;
+            justify-content: start;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        li{
+            list-style: none;
+        }
+        @media (max-width: 400px){
+            .media{
+                display: flex;
+                flex-direction: column;
+                background-color: blueviolet;
+            }
+            #heaing{
+                
+                justify-content: start;
+                width: 200px;
+            }
+            #id{
+                justify-content: end;
+                width: 200px;
+            }
+            #about{
+                justify-content: end;
+                width: 200px;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="media">
+        <div id="heading">
+            <h1>heading</h1>
+        </div>
+        <div id="contact">
+            <h3> Contact</h3>
+        </div>
+        <div id="about">
+            <h3>Abouts</h3>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
