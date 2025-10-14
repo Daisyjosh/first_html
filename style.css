@@ -15,6 +15,7 @@
 
 #h1{
     color: blueviolet;
+    text-align: center;
 
 }
 
@@ -82,3 +83,34 @@
     
 }
 
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: lightsalmon;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    width: 100%;
+
+}
+
+ul{
+  
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+
+}
+
+button{
+    height: 5vh;
+    width: 100px;
+    border-radius: 10px;
+    background-color: lightblue;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
